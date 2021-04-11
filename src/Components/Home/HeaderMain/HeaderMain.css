@@ -1,0 +1,5 @@
+.button{
+    background-image: linear-gradient(to right, rgb(125, 216, 163), rgb(86, 184, 184));
+    font-weight: 600;
+    color: white;
+}
