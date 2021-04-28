@@ -11,6 +11,7 @@ import Appointment from './Components/Appointment/Appointment/Appointment';
 import Login from './Components/Login/Login/Login';
 import Dashboard from './Components/Dashboard/Dashboard/Dashboard';
 import AllPatients from './Components/AllPatients/AllPatients/AllPatients';
+import AddDoctor from './Components/AddDoctor/AddDoctor';
 
 
 
@@ -37,6 +38,10 @@ function App() {
           <Route path='/login'>
             <Login/>
           </Route>
+          <Route path='/adddoctor'>
+            <AddDoctor></AddDoctor>
+          </Route>
+
         </Switch>
       </Router>
     </UserContext.Provider>

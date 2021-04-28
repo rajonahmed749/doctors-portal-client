@@ -8,7 +8,7 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
                     <a class="nav-link ms-5 active" aria-current="page" href="#">Home</a>
                     </li>
@@ -16,16 +16,16 @@ const Navbar = () => {
                     <a class="nav-link ms-5" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link ms-5" href="#">Dental Services</a>
+                    <a class="nav-link ms-5 text-white" href="#">Dental Services</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link ms-5 text-white" href="#">Reviews</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link ms-5 text-white" href="#">Blog</a>
+                    <a class="nav-link ms-4 text-white" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link ms-5 text-white" href="#">Contact Us</a>
+                    <a class="nav-link ms-4 text-white" href="#">Contact Us</a>
                     </li>
                 </ul>  
             </div>
