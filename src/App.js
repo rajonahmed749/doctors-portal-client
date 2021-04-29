@@ -41,7 +41,6 @@ function App() {
           <Route path='/adddoctor'>
             <AddDoctor></AddDoctor>
           </Route>
-
         </Switch>
       </Router>
     </UserContext.Provider>

@@ -17,7 +17,7 @@ const Dashboard = () => {
         setSelectedDate(date);
     }
 
-    useEffect( () => {
+    useEffect( ()=> {
         fetch('http://localhost:5000/appointmentsByDate', {
             method: 'POST',
             headers: { 'content-type': 'application/json'},
@@ -26,10 +26,11 @@ const Dashboard = () => {
         .then(res=>res.json())
         .then(data => setAppointments(data))
     }, [selectedDate])
-
+    
+   
     return (
         <section>
-            <div style={containerStyle} className="container-fluid row">
+            <div style={containerStyle} className="container-fluid row mt-5">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>
                 </div>

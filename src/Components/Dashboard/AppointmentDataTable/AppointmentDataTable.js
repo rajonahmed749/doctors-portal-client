@@ -2,7 +2,7 @@ import React from 'react';
 
 const AppointmentDataTable = ({appointments}) => {
     return (
-        <table className="table table-borderless">
+        <table className="table table-borderless p-3 mt-2">
             <thead>
                 <tr>
                 <th className="text-secondary text-left" scope="col">Sr No</th>
