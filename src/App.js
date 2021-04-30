@@ -12,6 +12,8 @@ import Login from './Components/Login/Login/Login';
 import Dashboard from './Components/Dashboard/Dashboard/Dashboard';
 import AllPatients from './Components/AllPatients/AllPatients/AllPatients';
 import AddDoctor from './Components/AddDoctor/AddDoctor';
+// import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
+
 
 
 
@@ -34,6 +36,9 @@ function App() {
           </Route>
           <Route path="/dashboard/allPatients">
             <AllPatients></AllPatients>
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard></Dashboard>
           </Route>
           <Route path='/login'>
             <Login/>
